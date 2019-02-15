@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>DbConnect1</servlet-name>
+        <servlet-class>com.depart.DbConnect1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Mreport</servlet-name>
+        <servlet-class>com.depart.Mreport</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Mcomplain</servlet-name>
+        <servlet-class>com.depart.Mcomplain</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>feedBack</servlet-name>
+        <servlet-class>com.depart.feedBack</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DbConnect1</servlet-name>
+        <url-pattern>/DbConnect1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Mreport</servlet-name>
+        <url-pattern>/Mreport</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Mcomplain</servlet-name>
+        <url-pattern>/Mcomplain</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>feedBack</servlet-name>
+        <url-pattern>/feedBack</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
