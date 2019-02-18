@@ -41,6 +41,10 @@
                 </ul>
             </div>
         </nav>
+        <form action="reqServlet" method="post">
+            
+            <input type="submit" value="submit">
+        </form>
 
         <p style="margin-top: 70px; margin-left: 200px; font-family: sans-serif; font-size: 60px "><b>Welcome Manager <br></b>
             <b style=" margin-top: 80px; margin-left: 130px; font-family: sans-serif; font-size: 30px ">Thank you for visiting The Estates Website</b></p>
