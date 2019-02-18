@@ -9,11 +9,11 @@
 <html>
     <head>
         
-    <!--<a href=”bootstrap/bootstrap/css/bootstrap.css” rel=”stylesheet” type=”text/css”></a>-->
+    <a href=”bootstrap/bootstrap/css/bootstrap.css” rel=”stylesheet” type=”text/css”></a>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
         <title>Manager</title>
-<!--        <script>
+        <script>
         function validate()
 { 
  var Name= document.form.fullname.value;
@@ -38,7 +38,7 @@
  }
  
  } 
-</script> -->
+</script> 
 
     </head>
     <body class="container-fluid">
@@ -110,7 +110,7 @@
     </div>
 </form>
 
-<!--<a href="<%=request.getContextPath()%>/DisplayServlet">Display</a>-->
+<a href="<%=request.getContextPath()%>/DisplayServlet">Display</a>
     </body>
     
     <script src="js/bootstrap.min.js"></script>
