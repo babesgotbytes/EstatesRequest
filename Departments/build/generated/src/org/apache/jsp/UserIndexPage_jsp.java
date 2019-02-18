@@ -83,6 +83,8 @@ public final class UserIndexPage_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("    \n");
       out.write("  </div>\n");
       out.write("</nav>\n");
+      out.write("       <p style=\"margin-top: 70px; margin-left: 200px; font-family: sans-serif; font-size: 50px \"><b>Welcome Head of Department!<br></b>\n");
+      out.write("            <b style=\" margin-top: 80px; margin-left: 70px; font-family: sans-serif; font-size: 25px \">Thank you for visiting The Estates Website,We Love Solving Your Problems.</b></p>\n");
       out.write("</body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

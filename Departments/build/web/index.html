@@ -8,14 +8,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#" style="font-size: 26px;"></a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="font-size: 22px;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" style="font-size: 20px;">MakeReport</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="feedBackPage.jsp" style="font-size: 20px;">FeedBack</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="McomplainPage.jsp" style="font-size: 20px;">Make Complain</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="USerResetPwdPage.jsp" style="font-size: 20px;">Resetpassword</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="UserLogout.jsp" style="font-size: 19px">Logout</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+
         
       
-        <form method="post" action="Mreport">
+        <form method="post" action="Mreport" style="margin-left: 150px;margin-top: 60px">
 Choose Category:<br>
 <select  class="form-control" name="Category" style="width:250px;">
+    <option disabled selected>--Please Choose--</option>
     <option>Field</option>
     <option>Hall</option>
     <option>Office</option>
+    <option>Field</option>
+    <option>Library</option>
+    <option>Admin</option>
 </select>
 <br>
 Category:<br>
@@ -26,9 +62,14 @@ Property:<br>
 <br>
 Choose the Kind of Damage:<br>
 <select class="form-control" name="damageKind" style="width:250px;">
+    <option disabled selected>--Please Choose--</option>
     <option>spoilt</option>
     <option>broken</option>
     <option>burnt</option>
+    <option>lost</option>
+    <option>cracked</option>
+    <option>Leaking</option>
+    <option>blocked</option>
 </select>
 <br><br>
 <button type="submit" class="btn btn-primary" id="butty" style="margin-left: 80px;margin-top: 5px;font-size: 18px;font-family: serif;"><i>Submit</i></button>

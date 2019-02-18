@@ -48,10 +48,12 @@ public class feedBack extends HttpServlet {
             
 
             int i = ps.executeUpdate();
-            response.setContentType("text/html");
-            PrintWriter out;
-            out = response.getWriter();
-            out.println("<h1>Hey! it worked</h1>");
+            response.sendRedirect("feedBackPage.jsp?data submited successful");
+//            response.setContentType("text/html");
+//            PrintWriter out;
+//            out = response.getWriter();
+//            out.println("<h1>Hey! it worked</h1>");
+            
 
         } catch (SQLException ex) {
             Logger.getLogger(Mreport.class.getName()).log(Level.SEVERE, null, ex);
