@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/edit/BeanClass.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/access/UserDAO.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/edit/RegisterServlet.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/bean/Credentials.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/edit/LoginServlet.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/edit/DAOClass.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/access/loginController.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/access/registrationController.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/login2.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/department.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/register2.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/manager.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/report/change.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/error.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/login.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/report/registerServlet.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/register.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/welcome2.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/report/UsersDAO.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/welcome.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/home.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/index.html</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/access/UserBean.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/web/first.jsp</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/report/loginServlet.java</file>
+            <file>file:/C:/Users/user/Documents/Estates/src/java/com/report/DbConn.java</file>
+        </group>
+    </open-files>
+</project-private>

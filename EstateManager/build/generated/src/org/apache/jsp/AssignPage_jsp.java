@@ -59,91 +59,91 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("    <head>\n");
-      out.write("        \n");
-      out.write("    <!--<a href=”bootstrap/bootstrap/css/bootstrap.css” rel=”stylesheet” type=”text/css”></a>-->\n");
-      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\"/>\n");
-      out.write("        <title>Manager</title>\n");
-      out.write("    </head>\n");
-      out.write("    \n");
-      out.write("    <body class=\"container-fluid\">\n");
-      out.write("      <nav class=\"navbar navbar-expand-lg navbar navbar-light bg-light\">\n");
-      out.write("  \n");
-      out.write("  <div class=\"collapse navbar-collapse\" id=\"navbarSuppUuortedContent\">\n");
-      out.write("    <ul class=\"navbar-nav ml-auto\">\n");
-      out.write("     <li class=\"nav-item\" >\n");
-      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"HomePage.jsp\">Home</a>\n");
-      out.write("      </li>\n");
-      out.write("      <li class=\"nav-item\">\n");
-      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"RequestPage.jsp\">Requests</a>\n");
-      out.write("      </li>\n");
-      out.write("      <li class=\"nav-item\">\n");
-      out.write("        <a style=\"margin-right: 50px; \" class=\"nav-link\" href=\"AddEmployeePage.jsp\">Manage Employee</a>\n");
-      out.write("      </li>\n");
-      out.write("      <li class=\"nav-item\">\n");
-      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"RenovationPage.jsp\">Renovation</a>\n");
-      out.write("      </li>\n");
-      out.write("      \n");
-      out.write("      <li class=\"nav-item\">\n");
-      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"ResetPasswordPage.jsp\">Reset Password</a>\n");
-      out.write("      </li>\n");
-      out.write("     <li class=\"nav-item\">\n");
-      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"Logout\">LogOut</a>\n");
-      out.write("      </li>   \n");
-      out.write("    </ul>\n");
-      out.write("      </div>\n");
-      out.write("</nav>\n");
-      out.write("        <br>\n");
-      out.write("        <h3 style=\"font-family: sans-serif;\"><b><u>Estate Department Employees</u></b></h3>\n");
-      out.write("\n");
-      out.write("        <br>\n");
-      out.write("\t<table  class=\"table table-stripped table-bordered table-condensed table-sm table-hover\" id=\"tab\">\n");
-      out.write("\n");
-      out.write("\t\t<tr class=\"thead-dark\">\n");
-      out.write("            <!--<th>No.</th>-->\n");
-      out.write("            <th>empID</th>\n");
-      out.write("            <th>Name</th>\n");
-      out.write("            <th>PhoneNumber</th>\n");
-      out.write("            <th>Email</th>\n");
-      out.write("            <th>Status</th>\n");
-      out.write("            <!--<th>Assign</th>-->\n");
-      out.write("\n");
-      out.write("                </tr>\n");
+      out.write("  \r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("    <head>\r\n");
+      out.write("        \r\n");
+      out.write("    <!--<a href=”bootstrap/bootstrap/css/bootstrap.css” rel=”stylesheet” type=”text/css”></a>-->\r\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("        <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\"/>\r\n");
+      out.write("        <title>Manager</title>\r\n");
+      out.write("    </head>\r\n");
+      out.write("    \r\n");
+      out.write("    <body class=\"container-fluid\">\r\n");
+      out.write("      <nav class=\"navbar navbar-expand-lg navbar navbar-light bg-light\">\r\n");
+      out.write("  \r\n");
+      out.write("  <div class=\"collapse navbar-collapse\" id=\"navbarSuppUuortedContent\">\r\n");
+      out.write("    <ul class=\"navbar-nav ml-auto\">\r\n");
+      out.write("     <li class=\"nav-item\" >\r\n");
+      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"HomePage.jsp\">Home</a>\r\n");
+      out.write("      </li>\r\n");
+      out.write("      <li class=\"nav-item\">\r\n");
+      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"RequestPage.jsp\">Requests</a>\r\n");
+      out.write("      </li>\r\n");
+      out.write("      <li class=\"nav-item\">\r\n");
+      out.write("        <a style=\"margin-right: 50px; \" class=\"nav-link\" href=\"AddEmployeePage.jsp\">Manage Employee</a>\r\n");
+      out.write("      </li>\r\n");
+      out.write("      <li class=\"nav-item\">\r\n");
+      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"RenovationPage.jsp\">Renovation</a>\r\n");
+      out.write("      </li>\r\n");
+      out.write("      \r\n");
+      out.write("      <li class=\"nav-item\">\r\n");
+      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"ResetPasswordPage.jsp\">Reset Password</a>\r\n");
+      out.write("      </li>\r\n");
+      out.write("     <li class=\"nav-item\">\r\n");
+      out.write("        <a style=\"margin-right: 50px\" class=\"nav-link\" href=\"Logout\">LogOut</a>\r\n");
+      out.write("      </li>   \r\n");
+      out.write("    </ul>\r\n");
+      out.write("      </div>\r\n");
+      out.write("</nav>\r\n");
+      out.write("        <br>\r\n");
+      out.write("        <h3 style=\"font-family: sans-serif;\"><b><u>Estate Department Employees</u></b></h3>\r\n");
+      out.write("\r\n");
+      out.write("        <br>\r\n");
+      out.write("\t<table  class=\"table table-stripped table-bordered table-condensed table-sm table-hover\" id=\"tab\">\r\n");
+      out.write("\r\n");
+      out.write("\t\t<tr class=\"thead-dark\">\r\n");
+      out.write("            <!--<th>No.</th>-->\r\n");
+      out.write("            <th>empID</th>\r\n");
+      out.write("            <th>Name</th>\r\n");
+      out.write("            <th>PhoneNumber</th>\r\n");
+      out.write("            <th>Email</th>\r\n");
+      out.write("            <th>Status</th>\r\n");
+      out.write("            <!--<th>Assign</th>-->\r\n");
+      out.write("\r\n");
+      out.write("                </tr>\r\n");
       out.write("                ");
       if (_jspx_meth_c_forEach_0(_jspx_page_context))
         return;
-      out.write("  \n");
-      out.write("        </table> \n");
-      out.write("            \n");
-      out.write("            \n");
-      out.write("        <br>  \n");
-      out.write("<!--        <p style=\"margin-top: 70px; margin-left: 200px; font-family: sans-serif; font-size: 60px \"><b>Welcome Manager <br></b>\n");
-      out.write("        <b style=\" margin-top: 80px; margin-left: 130px; font-family: sans-serif; font-size: 30px \">Thank you for visiting The Estates Website</b></p>-->\n");
-      out.write("   <!--               \n");
-      out.write("\n");
-      out.write("\t\t</tr>\n");
-      out.write("        </table>\n");
-      out.write("        \n");
-      out.write("        <!--Connection conn = DatabaseConnection.getConnection();-->\n");
-      out.write("        <a href=\"AddEmployeePage.jsp\" style=\"font-family: 'sans-serif';font-size: 25px; color: black;float: right;\">Add Employee</a>\n");
-      out.write("\n");
-      out.write("        <form style=\"align: center\" action=\"Renovation\" method=\"POST\">\n");
-      out.write("        <p style=\"color: black;font-family:sans-serif;font-size: 20px;\"><u><b>Assign Work To a free Employee</b></u></p>\n");
-      out.write("        <label>Please select the employee to be assigned</label>\n");
-      out.write("        <select  class=\"form-control\" name=\"doneby\" id=\"\" style=\"width: 400px\" >\n");
-      out.write("          <option value=\"\" disabled selected>--Please choose--</option>\";\n");
+      out.write("  \r\n");
+      out.write("        </table> \r\n");
+      out.write("            \r\n");
+      out.write("            \r\n");
+      out.write("        <br>  \r\n");
+      out.write("<!--        <p style=\"margin-top: 70px; margin-left: 200px; font-family: sans-serif; font-size: 60px \"><b>Welcome Manager <br></b>\r\n");
+      out.write("        <b style=\" margin-top: 80px; margin-left: 130px; font-family: sans-serif; font-size: 30px \">Thank you for visiting The Estates Website</b></p>-->\r\n");
+      out.write("   <!--               \r\n");
+      out.write("\r\n");
+      out.write("\t\t</tr>\r\n");
+      out.write("        </table>\r\n");
+      out.write("        \r\n");
+      out.write("        <!--Connection conn = DatabaseConnection.getConnection();-->\r\n");
+      out.write("        <a href=\"AddEmployeePage.jsp\" style=\"font-family: 'sans-serif';font-size: 25px; color: black;float: right;\">Add Employee</a>\r\n");
+      out.write("\r\n");
+      out.write("        <form style=\"align: center\" action=\"Renovation\" method=\"POST\">\r\n");
+      out.write("        <p style=\"color: black;font-family:sans-serif;font-size: 20px;\"><u><b>Assign Work To a free Employee</b></u></p>\r\n");
+      out.write("        <label>Please select the employee to be assigned</label>\r\n");
+      out.write("        <select  class=\"form-control\" name=\"emp_id\" id=\"\" style=\"width: 400px\" >\r\n");
+      out.write("          <option value=\"\" disabled selected>--Please choose--</option>\";\r\n");
       out.write("            ");
 
             
@@ -167,10 +167,13 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
                  {
                                    
                              
-      out.write("\n");
-      out.write("                             <option>");
+      out.write("\r\n");
+      out.write("                             <option value=\"");
+      out.print(rs.getInt(1));
+      out.write('"');
+      out.write('>');
       out.print(rs.getString(2));
-      out.write("</option>  \n");
+      out.write("</option>  \r\n");
       out.write("                             ");
 
                                  
@@ -179,7 +182,7 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
                  
                  
           
-      out.write("\n");
+      out.write("\r\n");
       out.write("                    ");
    
                      
@@ -188,17 +191,17 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
     
      } 
 
-      out.write("\n");
-      out.write("    \n");
-      out.write("        </select>\n");
-      out.write("\n");
-      out.write("        <br><br>\n");
-      out.write("        <label>Choose work for the employee</label><br>\n");
-      out.write("        <select class=\"form-control\" name=\"jobdescription\" id=\"\" style=\"width: 400px\">\n");
-      out.write("            \n");
-      out.write("\n");
-      out.write("           \n");
-      out.write("            <option value=\\\"\\\" disabled selected>--Please choose--</option>\";\n");
+      out.write("\r\n");
+      out.write("    \r\n");
+      out.write("        </select>\r\n");
+      out.write("\r\n");
+      out.write("        <br><br>\r\n");
+      out.write("        <label>Choose work for the employee</label><br>\r\n");
+      out.write("        <select class=\"form-control\" name=\"jobdescription\" id=\"\" style=\"width: 400px\">\r\n");
+      out.write("            \r\n");
+      out.write("\r\n");
+      out.write("           \r\n");
+      out.write("            <option value=\\\"\\\" disabled selected>--Please choose--</option>\";\r\n");
       out.write("             ");
 
             
@@ -212,10 +215,10 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
                  {
                                    
                              
-      out.write("\n");
+      out.write("\r\n");
       out.write("                             <option>");
       out.print(rs.getString(1));
-      out.write("</option>  \n");
+      out.write("</option>  \r\n");
       out.write("                             ");
 
                                  
@@ -225,29 +228,29 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
     
      } 
 
-      out.write("\n");
-      out.write("  \n");
-      out.write("        </select>\n");
-      out.write("\n");
-      out.write("        <br>\n");
-      out.write("        <input  class=\"btn alert-dark\" type=\"submit\" name=\"submit\" value=\"Submit\" style=\" color: black;width:150px;margin-left: 90px;\">\n");
-      out.write("\n");
-      out.write("        <br>\n");
-      out.write("        <br>\n");
-      out.write("    </form>\n");
-      out.write("    </body>\n");
-      out.write("    <script src=\"js/bootstrap.min.js\"></script>\n");
-      out.write("    \n");
-      out.write("    <script>          \n");
-      out.write("        function changeStatus(empid){\n");
-      out.write("            \n");
-      out.write("            window.location='ToggleAssigned?empId='+empid;\n");
-      out.write("            \n");
-      out.write("        }\n");
-      out.write("\n");
-      out.write("       \n");
-      out.write("    </script>\n");
-      out.write("        \n");
+      out.write("\r\n");
+      out.write("  \r\n");
+      out.write("        </select>\r\n");
+      out.write("\r\n");
+      out.write("        <br>\r\n");
+      out.write("        <input  class=\"btn alert-dark\" type=\"submit\" name=\"submit\" value=\"Submit\" style=\" color: black;width:150px;margin-left: 90px;\">\r\n");
+      out.write("\r\n");
+      out.write("        <br>\r\n");
+      out.write("        <br>\r\n");
+      out.write("    </form>\r\n");
+      out.write("    </body>\r\n");
+      out.write("    <script src=\"js/bootstrap.min.js\"></script>\r\n");
+      out.write("    \r\n");
+      out.write("    <script>          \r\n");
+      out.write("        function changeStatus(empid){\r\n");
+      out.write("            \r\n");
+      out.write("            window.location='ToggleAssigned?empId='+empid;\r\n");
+      out.write("            \r\n");
+      out.write("        }\r\n");
+      out.write("\r\n");
+      out.write("       \r\n");
+      out.write("    </script>\r\n");
+      out.write("        \r\n");
       out.write("        ");
  
             
@@ -255,13 +258,13 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
         if(passedValue!=null){
             
             
-      out.write("\n");
-      out.write("             \n");
-      out.write("            <script>\n");
-      out.write("                \n");
-      out.write("                alert(\"The user has been successfully saved\");\n");
-      out.write("            </script>\n");
-      out.write("    \n");
+      out.write("\r\n");
+      out.write("             \r\n");
+      out.write("            <script>\r\n");
+      out.write("                \r\n");
+      out.write("                alert(\"The user has been successfully saved\");\r\n");
+      out.write("            </script>\r\n");
+      out.write("    \r\n");
       out.write("            ");
 
             
@@ -270,9 +273,9 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
             
 }
         
-      out.write("\n");
-      out.write("       \n");
-      out.write("</html>\n");
+      out.write("\r\n");
+      out.write("       \r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -301,31 +304,31 @@ public final class AssignPage_jsp extends org.apache.jasper.runtime.HttpJspBase
       int _jspx_eval_c_forEach_0 = _jspx_th_c_forEach_0.doStartTag();
       if (_jspx_eval_c_forEach_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
         do {
-          out.write("\n");
-          out.write("                    <tr>\n");
+          out.write("\r\n");
+          out.write("                    <tr>\r\n");
           out.write("                        <td>");
           if (_jspx_meth_c_out_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                        <td>");
           if (_jspx_meth_c_out_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                        <td>");
           if (_jspx_meth_c_out_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                        <td>");
           if (_jspx_meth_c_out_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                        <td>");
           if (_jspx_meth_c_out_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
-          out.write("                        \n");
-          out.write("                       \n");
-          out.write("                     \n");
+          out.write("</td>\r\n");
+          out.write("                        \r\n");
+          out.write("                       \r\n");
+          out.write("                     \r\n");
           out.write("                ");
           int evalDoAfterBody = _jspx_th_c_forEach_0.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
