@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EstatesRequest;
+package Request;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Level;
@@ -15,38 +16,34 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ *
+ * @author CLARICE
+ */
+public class reqServlet extends HttpServlet {
 
-public class RequestServlet extends HttpServlet {
-
-   
-    
-
-    
-    @Override
+     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-       this.doPost(request, response);
+        this.doPost(request, response);
     }
 
-   
+    
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-      ArrayList<EstateBean> myList=new ArrayList<EstateBean>();
-      
+//       EmployeeBean emp=new EmployeeBean();
+       ArrayList<requestBean> mylist=new ArrayList<requestBean>();
         try {
-            myList=RequestDAO.retrieve();
+            mylist=requestDAO.retrieveData();
         } catch (SQLException ex) {
-            Logger.getLogger(RequestServlet.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(reqServlet.class.getName()).log(Level.SEVERE, null, ex);
         }
+          request.setAttribute("list",mylist);
+          request.getRequestDispatcher("/RequestPage.jsp").forward(request, response);
+           }
         
-        request.setAttribute("myList", myList);
-        request.getRequestDispatcher("/RequestPage.jsp").forward(request, response);
-        
-    }
-
-    
+   
     @Override
     public String getServletInfo() {
         return "Short description";

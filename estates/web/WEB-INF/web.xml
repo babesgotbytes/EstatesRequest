@@ -13,10 +13,6 @@
         <servlet-class>EstateManager.Renovation</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>report</servlet-name>
-        <servlet-class>EstateManager.report</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>ToggleAssigned</servlet-name>
         <servlet-class>EstateManager.ToggleAssigned</servlet-class>
     </servlet>
@@ -45,8 +41,8 @@
         <servlet-class>EstatesRequest.ReqServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>ReqServ</servlet-name>
-        <servlet-class>com.estate.ReqServ</servlet-class>
+        <servlet-name>reqServlet</servlet-name>
+        <servlet-class>Request.reqServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddEmployee</servlet-name>
@@ -59,10 +55,6 @@
     <servlet-mapping>
         <servlet-name>Renovation</servlet-name>
         <url-pattern>/Renovation</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>report</servlet-name>
-        <url-pattern>/report</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ToggleAssigned</servlet-name>
@@ -93,8 +85,8 @@
         <url-pattern>/ReqServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>ReqServ</servlet-name>
-        <url-pattern>/ReqServ</url-pattern>
+        <servlet-name>reqServlet</servlet-name>
+        <url-pattern>/reqServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

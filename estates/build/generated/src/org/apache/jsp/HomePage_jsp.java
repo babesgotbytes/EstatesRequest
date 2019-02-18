@@ -80,6 +80,10 @@ public final class HomePage_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                </ul>\r\n");
       out.write("            </div>\r\n");
       out.write("        </nav>\r\n");
+      out.write("        <form action=\"reqServlet\" method=\"post\">\r\n");
+      out.write("            \r\n");
+      out.write("            <input type=\"submit\" value=\"submit\">\r\n");
+      out.write("        </form>\r\n");
       out.write("\r\n");
       out.write("        <p style=\"margin-top: 70px; margin-left: 200px; font-family: sans-serif; font-size: 60px \"><b>Welcome Manager <br></b>\r\n");
       out.write("            <b style=\" margin-top: 80px; margin-left: 130px; font-family: sans-serif; font-size: 30px \">Thank you for visiting The Estates Website</b></p>\r\n");

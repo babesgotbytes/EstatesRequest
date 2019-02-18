@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.estate;
+package Request;
 
 /**
  *
  * @author CLARICE
  */
-public class RequestBean {
+public class requestBean {
+  
     private String category;
-    private String categoryname;
-    private String propertyname;
-    private String damage;
+    private String cname;
+    private String pname;
 
     public String getCategory() {
         return category;
@@ -23,20 +23,20 @@ public class RequestBean {
         this.category = category;
     }
 
-    public String getCategoryname() {
-        return categoryname;
+    public String getCname() {
+        return cname;
     }
 
-    public void setCategoryname(String categoryname) {
-        this.categoryname = categoryname;
+    public void setCname(String cname) {
+        this.cname = cname;
     }
 
-    public String getPropertyname() {
-        return propertyname;
+    public String getPname() {
+        return pname;
     }
 
-    public void setPropertyname(String propertyname) {
-        this.propertyname = propertyname;
+    public void setPname(String pname) {
+        this.pname = pname;
     }
 
     public String getDamage() {
@@ -46,6 +46,5 @@ public class RequestBean {
     public void setDamage(String damage) {
         this.damage = damage;
     }
-    
-    
+    private String damage;
 }
