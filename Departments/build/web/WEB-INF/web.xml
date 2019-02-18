@@ -16,6 +16,14 @@
         <servlet-name>feedBack</servlet-name>
         <servlet-class>com.depart.feedBack</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DepartmentBean</servlet-name>
+        <servlet-class>dept.bean.DepartmentBean</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DepartmentReport</servlet-name>
+        <servlet-class>dept.data.DepartmentReport</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>DbConnect1</servlet-name>
         <url-pattern>/DbConnect1</url-pattern>
@@ -31,6 +39,14 @@
     <servlet-mapping>
         <servlet-name>feedBack</servlet-name>
         <url-pattern>/feedBack</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DepartmentBean</servlet-name>
+        <url-pattern>/DepartmentBean</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DepartmentReport</servlet-name>
+        <url-pattern>/DepartmentReport</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

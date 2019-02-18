@@ -48,11 +48,19 @@ public final class AddEmployeePage_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("<html>\r\n");
       out.write("    <head>\r\n");
       out.write("        \r\n");
+<<<<<<< HEAD
       out.write("    <a href=”bootstrap/bootstrap/css/bootstrap.css” rel=”stylesheet” type=”text/css”></a>\r\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
       out.write("        <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\"/>\r\n");
       out.write("        <title>Manager</title>\r\n");
       out.write("        <script>\r\n");
+=======
+      out.write("    <!--<a href=”bootstrap/bootstrap/css/bootstrap.css” rel=”stylesheet” type=”text/css”></a>-->\r\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("        <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\"/>\r\n");
+      out.write("        <title>Manager</title>\r\n");
+      out.write("<!--        <script>\r\n");
+>>>>>>> 31d4d2c73e0f5fc783cdb61c4f71cc66fe6bbf8f
       out.write("        function validate()\r\n");
       out.write("{ \r\n");
       out.write(" var Name= document.form.fullname.value;\r\n");
@@ -77,7 +85,11 @@ public final class AddEmployeePage_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write(" }\r\n");
       out.write(" \r\n");
       out.write(" } \r\n");
+<<<<<<< HEAD
       out.write("</script> \r\n");
+=======
+      out.write("</script> -->\r\n");
+>>>>>>> 31d4d2c73e0f5fc783cdb61c4f71cc66fe6bbf8f
       out.write("\r\n");
       out.write("    </head>\r\n");
       out.write("    <body class=\"container-fluid\">\r\n");
@@ -153,9 +165,15 @@ public final class AddEmployeePage_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("    </div>\r\n");
       out.write("</form>\r\n");
       out.write("\r\n");
+<<<<<<< HEAD
       out.write("<a href=\"");
       out.print(request.getContextPath());
       out.write("/DisplayServlet\">Display</a>\r\n");
+=======
+      out.write("<!--<a href=\"");
+      out.print(request.getContextPath());
+      out.write("/DisplayServlet\">Display</a>-->\r\n");
+>>>>>>> 31d4d2c73e0f5fc783cdb61c4f71cc66fe6bbf8f
       out.write("    </body>\r\n");
       out.write("    \r\n");
       out.write("    <script src=\"js/bootstrap.min.js\"></script>\r\n");
