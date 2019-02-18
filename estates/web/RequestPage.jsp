@@ -43,18 +43,23 @@
       </div>
 </nav>
         <br>
-        <h3 style="font-family: sans-serif;"><b><u>Estate Department Employees</u></b></h3>
+        <h3 style="font-family: sans-serif;"><b><u>Departmental Requests</u></b></h3>
 
         <br>
+        <form action="reqServlet" method="post">
+            
+            <input type="submit" value="View requests">
+        </form>
+
 	<table  class="table table-stripped table-bordered table-condensed table-sm table-hover" id="tab">
 
 		<tr class="thead-dark">
             <!--<th>No.</th>-->
-            <th>No</th>
             <th>Category</th>
             <th>Category name</th>
             <th>Property name</th>
             <th>Damage</th>
+            <th>Edit</th>
             <!--<th>Assign</th>-->
 
                 </tr>
@@ -64,6 +69,8 @@
                         <td><c:out value="${list.cname}"/></td>
                         <td><c:out value="${list.pname}"/></td>
                         <td><c:out value="${list.damage}"/></td>
+                        <td> <input type="Submit" name="delete_value" value="Delete"/>
+</td>
                         
                     </tr>  
                      

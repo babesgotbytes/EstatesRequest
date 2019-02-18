@@ -1,30 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
-        <group name="Class Projects">
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstatesRequest/EstateManager/web/HomePage.jsp</file>
-        </group>
-        <group/>
-=======
-<<<<<<< HEAD
-        <group>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstateManager/web/AddEmployeePage.jsp</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstateManager/src/java/manager/DisplayServlet.java</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstateManager/src/java/manager/AddEmployee.java</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstateManager/src/java/mvc/dao/RegisterDao.java</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstateManager/src/java/manager/ToggleAssigned.java</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstateManager/web/RenovationPage.jsp</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstateManager/web/AssignPage.jsp</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstateManager/src/java/manager/Renovation.java</file>
-        </group>
-        <group name="Class Projects">
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstatesRequest/EstateManager/web/HomePage.jsp</file>
-        </group>
-=======
-        <group/>
->>>>>>> 31d4d2c73e0f5fc783cdb61c4f71cc66fe6bbf8f
->>>>>>> 21c820755cf5a3dafa0ea2962fdbf5ba3eb9b572
-    </open-files>
 </project-private>
