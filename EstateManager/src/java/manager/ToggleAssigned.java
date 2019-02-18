@@ -60,7 +60,7 @@ public class ToggleAssigned extends HttpServlet {
                     
                        statement.executeUpdate();
                 
-                  request.getRequestDispatcher("/RevonationPage.jsp").forward(request, response);
+                  response.sendRedirect("RenovationPage.jsp?changed successful");
    }catch(Exception e){
     
      } 

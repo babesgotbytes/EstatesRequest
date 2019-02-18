@@ -56,7 +56,7 @@
             <!--<th>Done By</th>-->
             <th> Employee ID</th>
             <th> Work status</th>
-            <th>ytttyt</th>
+            <th>   </th>
         </tr>
          <%
             
@@ -80,7 +80,7 @@
                      
 
                       
-                      PreparedStatement ps = conn.prepareStatement("select * from report where id=? LIMIT 1");
+                PreparedStatement ps = conn.prepareStatement("select * from report where id=? LIMIT 1");
                 ps.setInt(1, rs.getInt(2));
                 resultSet=ps.executeQuery();
 
