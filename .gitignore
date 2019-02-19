@@ -3,7 +3,14 @@
 =======
 /estates/dist/
 /estates/build/
+<<<<<<< HEAD
+/estates/nbproject/private/
+=======
 >>>>>>> e20bd853cdc5d243baee2217743da2048c4cccc0
+<<<<<<< HEAD
 /notes/nbproject/private/
 /notes/dist/
 /notes/build/
+=======
+>>>>>>> 212ec4fb5735b89b8ac3e62eb3ce7474b47bd5dc
+>>>>>>> c60c5e33e71334f0c910b621dc00235c6b8f4652

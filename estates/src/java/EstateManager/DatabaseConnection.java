@@ -15,7 +15,7 @@ public class DatabaseConnection {
   static{
      try{
     Class.forName("com.mysql.jdbc.Driver");
-    String path="jdbc:mysql://localhost:3306/estates";
+    String path="jdbc:mysql://localhost:3306/estate";
     String user="root";
     String pass="";
       conn=DriverManager.getConnection(path,user,pass);

@@ -23,11 +23,11 @@
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/estates/src/java/com/estate/RequestDB.java</file>
         </group>
         <group>
-            <file>file:/C:/Users/Calvince/Documents/NetBeansProjects/EstatesRequest/estates/src/java/EstatesRequest/Request.java</file>
-            <file>file:/C:/Users/Calvince/Documents/NetBeansProjects/EstatesRequest/estates/src/java/EstatesRequest/RequestDAO.java</file>
-            <file>file:/C:/Users/Calvince/Documents/NetBeansProjects/EstatesRequest/estates/src/java/EstatesRequest/ReqServlet.java</file>
-            <file>file:/C:/Users/Calvince/Documents/NetBeansProjects/EstatesRequest/estates/src/java/EstatesRequest/RequestServlet.java</file>
-            <file>file:/C:/Users/Calvince/Documents/NetBeansProjects/EstatesRequest/estates/web/HomePage.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstatesRequest/estates/src/java/Request/requestBean.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstatesRequest/estates/web/RequestPage.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstatesRequest/estates/src/java/Request/reqServlet.java</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstatesRequest/estates/web/HomePage.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/EstatesRequest/estates/src/java/Request/requestDAO.java</file>
         </group>
     </open-files>
 </project-private>
